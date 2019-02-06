@@ -1,0 +1,68 @@
+.topnav{
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    *display: inline;
+    *zoom: 1;
+}
+
+.topnav a{
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: gainsboro;
+    color: black;
+}
+
+/*
+.topnav a.active {
+  background-color: wheat;
+  color: black;
+}*/
+
+body, html {
+  height: 100%;
+}
+
+.container {
+  /* The image used */
+  background-image: url("https://i.kym-cdn.com/entries/icons/original/000/027/475/Screen_Shot_2018-10-25_at_11.02.15_AM.png");
+
+  /* Full height */
+  min-height: 100%;
+position: relative;
+    opacity: 0.65;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+/*    background-color: white;*/
+}
+
+.centered span.border{
+    background-color: wheat;
+    color: aqua;
+    left: 50%;
+    padding; 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.landing_top{
+ background-color: transparent;
+}

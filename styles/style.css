@@ -30,7 +30,7 @@ body, html {
   height: 100%;
 }
 
-.container {
+.container-fluid {
   /* The image used */
   background-image: url("https://i.kym-cdn.com/entries/icons/original/000/027/475/Screen_Shot_2018-10-25_at_11.02.15_AM.png");
 

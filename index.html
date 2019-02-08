@@ -12,34 +12,37 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
 
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-    </head>
+    
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	</head>
+  
+    <nav class="navbar navbar-nav navbar-fixed-top">
+		<div class="topnav" id="top_nav">
+			<div class = "navbar-header">
+					<a class="active" href="#home">Home</a>
+					<a href="#about">About</a>
+					<a href="#contact">Contact</a>
+			</div>
+		</div>
+	</nav>
     
     
-    <div class="topnav" id="top_nav">
-        <a class="active" href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </div>
-    
-    
-    
-        <body>
-            <div class = "container-fluid">    
-        <div class = "centered">
-        <span class = "border"><h1>ALPHA PHI OMEGA</h1></span>
-		<h2>Cal Poly Pomona - Phi Delta</h2>
-		<h3>National Co-educational Service Fraternity</h3>
-		<button type="button" class="btn btn-primary">Spring 2019 Rush</button>
-        </div>
-    </div>
-            <div class ="landing_top">
-			<a name="info"></a>
-                <h1 color = blue>ALPHA PHI OMEGA</h1>
-                <h1>Cal Poly Pomona - Phi Delta</h1>
-                <h3>National Co-educational Service Fraternity</h3>
+    <body>
+        <div class = "container-fluid landing">    
+			<div class = "centered">
+				<a name="home"></a>
+				<span class = "border title"><h1>ALPHA PHI OMEGA</h1></span>
+				<h2>Cal Poly Pomona - Phi Delta</h2>
+				<h3>National Co-educational Service Fraternity</h3>
 				<button type="button" class="btn btn-primary">Spring 2019 Rush</button>
+			</div>
+		</div>
+            <div class ="container" id="landing_top">
+				<a name="about"</a>
+                <h1 color = blue>About Us</h1>
+                <h3>National Co-educational Service Fraternity</h3>
             </div>
-            <div class ="what_we_stand_for">
+            <div class ="container" id="what_we_stand_for">
                 <ul>
                     <li>Leadership</li>
                     <li>Friendship</li>
@@ -48,6 +51,17 @@
             </div>
             <div class = "rush">
             Rush Stuff</div>
+
         </body>
-        <footer class = "landing_footer">Icons and Contact</footer>
+        <footer class = "landing_footer">
+			<div class ="container" id="contact">
+				<a name ="contact"></a>
+				<h2>Follow us!</h2>
+				<div class ="icons">
+						<a href="https://www.instagram.com/cppapo/"><i class="fab fa-instagram"></i></a>
+						<a href="https://www.facebook.com/cppapo"><i class="fab fa-facebook-square"></i></a>
+						<a href="https://www.youtube.com/channel/UCdBiU_4NUb4EjK8FeQRml6A?fbclid="><i class="fab fa-youtube"></i></a>
+				</div>
+			</div>
+		</footer>
 </html>

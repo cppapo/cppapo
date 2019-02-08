@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang = "en">
-    <head>
+<!--Head contains CSS source, JavaScript source, and Bootstrap Imports-->
+<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel = "stylesheet" href = "styles/style.css">
@@ -14,53 +15,63 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
     
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-	</head>
-  
-    <nav class="navbar navbar-nav navbar-fixed-top">
-		<div class="topnav" id="top_nav">
+        
+        <!--Title of fthe web tab-->
+        <title>Alpha Phi Omega - Phi Delta</title>
+</head>
+<body>
+    <!--Link to home-->
+    <a name="home"></a>
+    
+    <!--Fixed Top Nav Bar-->
+    <div class="container-fluid">
+        <nav class="navbar fixed-top">
 			<div class = "navbar-header">
 					<a class="active" href="#home">Home</a>
 					<a href="#about">About</a>
-					<a href="#contact">Contact</a>
+					<a href="#">Contact</a>
+                    <a href ="#what_we_stand_for">What we stand for</a>
 			</div>
-		</div>
-	</nav>
+	   </nav>
+    </div>
     
-    <body>
-        <div class = "container-fluid landing">    
-			<div class = "centered">
-				<a name="home"></a>
-				<span class = "border title"><h1>ALPHA PHI OMEGA</h1></span>
-				<h2>Cal Poly Pomona - Phi Delta</h2>
-				<h3>National Co-educational Service Fraternity</h3>
-				<button type="button" class="btn btn-primary">Spring 2019 Rush</button>
-			</div>
-		</div>
-            <div class ="container" id="landing_top">
-				<a name="about"></a>
-                <h1 color = blue>About Us</h1>
-                <h3>National Co-educational Service Fraternity</h3>
-            </div>
-            <div class ="container" id="what_we_stand_for">
-                <ul>
-                    <li>Leadership</li>
-                    <li>Friendship</li>
-                    <li>Service</li>
-                </ul>
-            </div>
-            <div class = "rush">
-            Rush Stuff</div>
+    <!-- Landing photo w/ APO-->
+    <div class = "container-fluid landing">    
+        <div class = "centered">
+            <span class = "border title"><h1>ALPHA PHI OMEGA</h1></span>
+            <h2>Cal Poly Pomona - Phi Delta</h2>
+            <h3>National Co-educational Service Fraternity</h3>
+            <button type="button" class="btn btn-primary">Spring 2019 Rush</button>
+        </div>
+    </div>
+    
+    <div class ="container" id="landing_top">
+        <!--Link to about-->
+        <a name="about"></a>
+            <h1 color = blue>About Us</h1>
+            <h3>National Co-educational Service Fraternity</h3>
+    </div>
+    
+    <div class ="container" id="what_we_stand_for">
+        <ul>
+            <li>Leadership</li>
+            <li>Friendship</li>
+            <li>Service</li>
+        </ul>
+    </div>
+            
+    <div class = "rush">Rush Stuff</div>
 
-        </body>
-        <footer class = "landing_footer">
-			<div class ="container" id="contact">
-				<a name ="contact"></a>
-				<h2>Follow us!</h2>
+</body>
+    <footer class = "landing_footer">
+        <div class ="container" id="contact">
+            <a name ="contact"></a>
+                <h2>Follow us!</h2>
 				<div class ="icons">
-						<a href="https://www.instagram.com/cppapo/"><i class="fab fa-instagram"></i></a>
-						<a href="https://www.facebook.com/cppapo"><i class="fab fa-facebook-square"></i></a>
-						<a href="https://www.youtube.com/channel/UCdBiU_4NUb4EjK8FeQRml6A?fbclid="><i class="fab fa-youtube"></i></a>
+				    <a href="https://www.instagram.com/cppapo/"><i class="fab fa-instagram"></i></a>
+				    <a href="https://www.facebook.com/cppapo"><i class="fab fa-facebook-square"></i></a>
+				    <a href="https://www.youtube.com/channel/UCdBiU_4NUb4EjK8FeQRml6A?fbclid="><i class="fab fa-youtube"></i></a>
 				</div>
-			</div>
-		</footer>
+        </div>
+    </footer>
 </html>

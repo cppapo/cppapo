@@ -5,14 +5,28 @@
 
 body, html {
     height: 100%;
+    scroll-behavior: smooth
 }
 
+/*Imported fonts from /fonts folder*/
+@font-face {
+    font-family: 'Caviar';
+    src: url("../fonts/caviar_dreams/CaviarDreams.ttf");
+}
+
+@font-face {
+    font-family: 'CaviarBold';
+    src: url("../fonts/caviar_dreams/CaviarDreams_Bold.ttf");
+}
+
+/*Top navbar styling*/
 .navbar.fixed-top{
     position: fixed;
     z-index: 2;
     display: inline-block;
     vertical-align: top;
-    background-color: white;
+    background-color: black;
+    color: white;
     overflow: hidden;
     text-align: center;
     display: inline;
@@ -29,6 +43,7 @@ body, html {
     font-size: 20px;
     float: center;
     width: 100%;
+    color: white;
 }
 
 .navbar.fixed-top a:hover {
@@ -37,12 +52,10 @@ body, html {
     text-decoration: none;
 }
 
+/*Main image container*/
 .landing {
-    /* The image used */
-    /*  background-image: url("cppapo/newbuilding.jpg");*/
-    background-color: forestgreen;
+    font-family: 'Caviar';
     z-index: 0;
-
     /* Full height */
     min-height: 100%;
     position: relative;
@@ -52,6 +65,12 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url("../photos/landing.jpg");
+}
+
+.border_title{
+    font-family: CaviarBold;
+    font-size: 20px;
 }
 
 .centered{
@@ -61,26 +80,40 @@ body, html {
     width: 100%;
     text-align: center;
     text-decoration: none;
-    background-color: white;
+    background-color: none;
+    color: white;
 }
 
 .centered span.border{
     background-color: wheat;
-    color: aqua;
+    color: white;
     left: 50%;
     padding; 18px;
     font-size: 25px;
     letter-spacing: 10px;
 }
 
-.landing_top{
- background-color: transparent;
+#about_us{
+ background-color: white;
+}
+
+#lfs{
+    
+}
+
+#rush{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height:  100%;
+    background-image: url("../photos/s19rush.jpg");
 }
 
 #contact {
 	text-align: center;
 }
 
+/*Style properties for icons*/
 .icons {
 	padding: 15px;
 	font-size: 40px;
